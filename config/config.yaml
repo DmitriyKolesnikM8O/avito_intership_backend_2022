@@ -1,0 +1,16 @@
+app:
+  name: 'blog'
+  version: '1.0.0'
+
+http:
+  port: 8087
+
+log:
+  level: 'debug'
+
+postgres:
+  max_pool_size: 20
+  PG_URL: 'postgres://{user}:{password}@{host}:{port}/{database}'
+
+jwt:
+  token_ttl: 120m
